@@ -1,0 +1,35 @@
+.password-validator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+
+.password-input {
+  border: 1px solid #ccc;
+  width: 240px;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.password-strength {
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.strong-password {
+  color: #10b981;
+}
+
+.moderate-password {
+  color: #fbbf24;
+}
+
+.weak-password {
+  color: #ef4444;
+}
